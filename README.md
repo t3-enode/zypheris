@@ -135,6 +135,16 @@ OWNER_NAME=YourName
 python zypheris.py
 ```
 
+### Run the Streamlit Web App
+
+Install the dependencies, set `GEMINI_API_KEY` in `.env`, then start the web UI:
+
+```bash
+streamlit run app.py
+```
+
+Open the local URL printed by Streamlit. The web app uses the same Gemini configuration and persistent `memory.json` file as the Discord bot.
+
 ---
 
 ## 🔑 Step-by-Step Discord Developer Setup
